@@ -1,0 +1,55 @@
+﻿p {
+    border: thin dashed red;
+    padding: 5px;
+    font-style:italic;
+}
+h1 {
+    background-color: green;
+    color: yellow
+}
+body{
+    font-family:Calibri;
+}
+article {
+    float: left;
+    margin: 0 1.5%;
+    width: 72%;
+    /*column-count:2;
+    column-gap: 10px;
+    column-rule: 1px dashed red;*/
+}
+aside {
+    color:cadetblue;
+    float: right;
+    margin: 0 1.5%;
+    width: 20%;          
+    padding: 6px;
+    border:s
+}   
+h4 {
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-bottom: 0px;  
+}     
+ul {
+    padding-top: 0px;   
+    margin-top:0px;
+}
+nav {
+    padding-top: 0px;   
+    margin-top:0px;
+    color:black;
+}  
+.Myfooter {
+    background-color:#606060 ;
+    color: #ffffff;
+    position: page;
+    width:100%;
+} 
+section {
+    width:100%;   
+}
+
+#myHeader { 
+    background-color: yellow;
+}    
