@@ -78,7 +78,39 @@
 </head>
 
 <body>
-
+     
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Track</th>
+                <th>Composer</th>
+                <th>Listen</th>
+            </tr>
+        </thead>
+        <tbody>            
+            <tr class="danger">
+                <td>Tango esta noche</td>
+                <td>Vincent Lindsey</td>
+                <td>
+                    <audio controls>
+                        <source src="audio/Tango esta noche by Vincent Lindsey - Clark..mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr class="success">
+                <td>Expressif</td>
+                <td>Claude Gagnon</td>
+                <td>
+                    <audio controls>
+                        <source src="audio/Expressif.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -139,7 +171,7 @@
     <div style="clear: both;">
         <footer id="thefooter">
             <span aria-hidden="true" data-icon="&#x21dd;"></span>           
-            Jim Clark <a href="mailto:jim@jimclark.net.au?Subject=Contact from website" target="_top">jim@jimclark.net.au</a>
+            Jim Clark <span class="glyphicon glyphicon-envelope"></span>  <a href="mailto:jim@jimclark.net.au?Subject=Contact from website" target="_top">jim@jimclark.net.au</a>
         </footer>
     </div>
     <!-- Bootstrap core JavaScript
@@ -152,3 +184,4 @@
     <script src="ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
+
